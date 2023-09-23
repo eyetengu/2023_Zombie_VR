@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy_BasicBehavior
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: ac7775184c9f4cf4daa02f0526b4b2f5, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _playerHealth
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _playerIndicator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _zombieHealthBar
+    value: 
+    objectReference: {fileID: 5810572564108026322, guid: dec29039a4b8d404f9fa90dbaec4aedb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _audioSource
+    value: 
+    objectReference: {fileID: 5810572565509975274, guid: dec29039a4b8d404f9fa90dbaec4aedb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: 71cde4e55faaa472782cd3981de1e19f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: 0782a994e367a419caf8544941aaf25b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: 34515b08cefe9440cb7ecb9baa7cda9d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[3]
+    value: 
+    objectReference: {fileID: 8300000, guid: 7a97cafbe4e5a4522b915a8c2155f953, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[4]
+    value: 
+    objectReference: {fileID: 8300000, guid: 5b4926841197d49a6b47ec2c075c9a98, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAudio.Array.data[5]
+    value: 
+    objectReference: {fileID: 8300000, guid: 42d319945030a4d6a80c6d302a23d34f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: 71cde4e55faaa472782cd3981de1e19f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: 724969d1ce98948f1a07f3c2e92e337d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: 241a28ce4b9dd46bcb7f5654b0b44529, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[3]
+    value: 
+    objectReference: {fileID: 8300000, guid: dc185a275e8d64de88aa34486d3b55c3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[4]
+    value: 
+    objectReference: {fileID: 8300000, guid: e98000f5333d14ada93afb027ff040b0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieAttackAudio.Array.data[5]
+    value: 
+    objectReference: {fileID: 8300000, guid: f7e3f8e9a16f6409a9a7bb0180d258c5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieBreathingClip.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _zombieBreathingClip.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: 945cafb4932cb4a13a094b39be484362, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieBreathingClip.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: d0eaa24f492384215b9467b76c6c23de, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _zombieBreathingClip.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: 1e1c480163c4c47dc8be93f33672998b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.size
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: 0786c60274ab44248ab78546570368ae, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: 89ebf6bde465948d2a506b1f171e3263, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: f259dd52dede1482e87ad91c1e16225a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[3]
+    value: 
+    objectReference: {fileID: 8300000, guid: 243814b0e484544fe87c8355b23b21c9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[4]
+    value: 
+    objectReference: {fileID: 8300000, guid: c20e23cfb67564e34bcf3282fc7f5523, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[5]
+    value: 
+    objectReference: {fileID: 8300000, guid: b1d712aafcd954e8e84a6d2f937feb3c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[6]
+    value: 
+    objectReference: {fileID: 8300000, guid: c43584012cd494cc995b5d0bca5e9c83, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[7]
+    value: 
+    objectReference: {fileID: 8300000, guid: 863dec99352f942c7b878c8b2bef2b2c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[8]
+    value: 
+    objectReference: {fileID: 8300000, guid: 6ec3dc20e252a4538aaac236aa36cb6e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[9]
+    value: 
+    objectReference: {fileID: 8300000, guid: e59dec6c41f924aaa8993fafc808e67f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[10]
+    value: 
+    objectReference: {fileID: 8300000, guid: 3fa01d0b2930a4c8a88dbb6b5580548c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[11]
+    value: 
+    objectReference: {fileID: 8300000, guid: 9d65e128ee4a54447ac3ad105eee6f1f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _randomActionClip.Array.data[12]
+    value: 
+    objectReference: {fileID: 8300000, guid: 2235070f7c287447fbe7cc0462a08d1c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: _speed
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _distance
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
